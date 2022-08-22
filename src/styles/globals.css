@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.secondary-title {
+  @apply text-3xl font-bold;
+}
+.secondary-title::before {
+  content: "";
+  @apply mb-1 block h-2 w-12 rounded-full bg-thema;
+}
+
+.section-pargraph {
+  @apply my-6 w-full max-w-3xl text-secondary;
+}

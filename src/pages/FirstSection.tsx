@@ -6,7 +6,7 @@ const FirstSetion: NextPage = () => {
   return (
     <div
       id="home"
-      className=" mt-16 flex w-full items-center justify-between px-8  md:px-14 lg:px-24"
+      className="container mt-16 flex w-full max-w-full items-center justify-between px-8  md:px-14 lg:px-24"
     >
       <div className="inline-block  flex-wrap text-center md:flex-nowrap">
         <div className=" md:my-36 md:justify-start md:text-left lg:ml-20">

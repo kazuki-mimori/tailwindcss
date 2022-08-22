@@ -4,7 +4,7 @@ const Header: NextPage = () => {
   return (
     <header>
       <div className="py-6">
-        <div className="lg: container mx-auto flex w-full items-center justify-between px-8 md:px-14">
+        <div className="mx-auto flex w-full items-center justify-between px-8 md:px-14 lg:container">
           <div className="text-3xl font-bold">Portfolio</div>
           <div className="hidden items-center space-x-12 md:flex">
             <a
