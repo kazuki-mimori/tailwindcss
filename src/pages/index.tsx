@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Contact from "src/pages/Contact";
 import FirstSetion from "src/pages/FirstSection";
 import Header from "src/pages/Header";
 import SecondSection from "src/pages/SecondSection";
@@ -11,6 +12,7 @@ const Home: NextPage = () => {
       <FirstSetion />
       <SecondSection />
       <ThirdSetion />
+      <Contact />
     </>
   );
 };

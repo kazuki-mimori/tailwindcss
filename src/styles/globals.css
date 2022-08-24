@@ -13,3 +13,7 @@
 .section-pargraph {
   @apply my-6 w-full max-w-3xl text-secondary;
 }
+
+.badge {
+  @apply bg-badge px-4 py-2 text-sm;
+}

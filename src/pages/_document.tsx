@@ -21,5 +21,6 @@ export default function Document() {
         <NextScript />
       </body>
     </Html>
+    //1から３０までを表示
   );
 }

@@ -9,7 +9,7 @@ const SecondSetion: NextPage = () => {
   return (
     <div
       id="Portfolio"
-      className="mt-6 flex w-full  items-center justify-between px-8 md:mt-64 md:px-14  lg:px-24 xl:mt-64"
+      className="container mt-6 flex w-full  items-center justify-between px-8 md:mt-64 md:px-14  lg:px-24 xl:mt-64"
     >
       <section className="w-hull">
         <h2 className="secondary-title">私のポートフォリオ</h2>
